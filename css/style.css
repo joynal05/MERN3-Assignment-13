@@ -29,3 +29,35 @@ h6 {
   background-size: cover;
   background-attachment: fixed;
 }
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordion-button {
+  background-color: #f8f9fa;
+  color: #333;
+  border-color: #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.collapsed {
+  background-color: #f8f9fa;
+}
+
+.accordion-body {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+}
+div#carouselExampleIndicators {
+  max-width: 1200px;
+  margin: auto;
+}
